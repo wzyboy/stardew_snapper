@@ -33,7 +33,7 @@ class StardewSnapper:
 
         logger.info(
             f'I will poke {self.save_file} for changes every {interval} second(s). '
-            f'If I detect one, I will take a snapshot of it and save it under {self.save_dir}.'
+            f'If I detect one, I will take a snapshot of it and save it under {self.snap_dir}.'
         )
 
     def get_date(self):
